@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.app{
+    max-width: 640px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #0275d8;
+    color: white;
+
+    .search-container{
+        margin-bottom: 3rem;
+
+        input{
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            outline: none;
+            transition: 500ms ease;
+
+            &:focus{
+                outline: none;
+            }
+        }
+
+        .search-error{
+            border: 2px solid red;
+        }
+    }
+
+    .city{
+        font-weight: 500;
+    }
+
+    .date{
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+
+    div{
+        
+        .temperature{
+            font-size: 5rem;
+
+            .unit{
+            }
+        }
+
+        p{
+            margin-bottom: 2rem;
+            font-weight: 200;
+        }
+
+        .additional-info-container{
+            display: flex;
+            flex-direction: column;
+            
+            span{
+                font-size: 0.95rem;
+                font-weight: 200;
+            }
+        }
+    }
+
+}
