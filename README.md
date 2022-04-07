@@ -1,3 +1,3 @@
-# React Weather App
+# React Weather App 
 
-This app is a project-based learning to improve my react skill.
+![](src/images/react-weather-app.png)
